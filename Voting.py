@@ -37,7 +37,7 @@ for i in users:
             print('Le résultat est égalité, il y a eu 5 votes oui et 5 votes non')
             break
     else:
-        print(i)
+        print(i,' est en train de voter')
         i = Voting('', 'user', 0)
         i.Vote()
         nb_vote_total += 1
